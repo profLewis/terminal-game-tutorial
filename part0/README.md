@@ -15,11 +15,11 @@ You probably have `pip` on your system already, if you have Python, but you shou
 python -m pip install --upgrade pip
 ```
 
-![image](../images/img0002.png)
+![image](../images/img0004.png)
 
 If this responds with `No module named pip`, then you don't have `pip` installed (or not for the version of Python you are now using). 
 
-![image](../images/img0004.png)
+![image](../images/img0001.png)
 
 So, install it for your computer. [There are multiple options for this](https://pip.pypa.io/en/stable/installation/), depending on your system, so read about it and install `pip`.
 
