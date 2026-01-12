@@ -9,7 +9,13 @@ This project is based on the terminal game tutorial of fundamelon
 
 ### 1.1: Update `pip`
 
-You probably have `pip` on your system already, if you have Python, but you should probably make sure it is up to date:
+You probably have `pip` on your system already, if you have Python, but you should probably make sure it is up to date.
+
+Open a terminal (look this up if you don't know how):
+
+![image](../images/img0000.png)
+
+and at the prompt type:
 
 ```
 python -m pip install --upgrade pip
