@@ -31,6 +31,15 @@ python -m ensurepip --upgrade
 
 ![image](../images/img0006.png)
 
+You should test again now, as above, to make sure.
+
+
+```
+python -m pip install --upgrade pip
+```
+
+![image](../images/img0004.png)
+
 ### 1.2: Testing for `blessed`
 
 These tutorials requires the Python library `blessed` for a simple interface to text-based screen coding, so let's check you have that:
@@ -55,6 +64,8 @@ If this fails, it will report something like:
 `ModuleNotFoundError: No module named 'blessed'`
 
 and you should then install the library. 
+
+![image](../images/img0007.png)
 
 ### 1.3: Install `blessed`
 
