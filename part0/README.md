@@ -11,7 +11,7 @@ These tutorials requires the Python library `blessed` for a simple interface to 
 
 Open a terminal:
 
-![../images/img0000.png]
+![image](images/img0000.png)
 
 and at the prompt type:
 
@@ -21,7 +21,7 @@ python -c 'from blessed import Terminal;print("hello world")'
 
 If this is ok, it will print "hello world" in the terminal.
 
-![../images/img0001.png]
+![image](images/img0001.png)
 
 
 If this fails, it will report something like:
