@@ -19,8 +19,10 @@ python3 -m pip install --upgrade pip
 
 If this responds with `No module named pip`, then you don't have `pip` installed (or not for the version of Python you are now using). So, install it for your computer. [There are multiple options for this](https://pip.pypa.io/en/stable/installation/), depending on your system, so read about it and install `pip`.
 
+e.g. (but [check for your system](https://pip.pypa.io/en/stable/installation/)):
+
 ```
-python get-pip.py
+python -m ensurepip --upgrade
 ```
 
 ### 1.2: Testing for `blessed`
