@@ -2,39 +2,38 @@
 
 ### 1.1: A brief introduction of everything
 
-History goes here
+This project is based on the terminal game tutorial of fundamelon
+, fundamelon/terminal-game-tutorial in c++, translated to Python using the blessed library.
 
+It requires the Python library `blessed`, so let's check you have that:
 
+Open a terminal, iand at the prompt type:
+
+```
+python -c 'from blessed import Terminal'
+```
+
+If this fails, it will say something like:
+
+`ModuleNotFoundError: No module named 'blessed'`
+
+and you should then install the library. Most commonly, this involves you downloading and installing using `pip`, by typing at the prompt:
+
+```
+pip install blessed
+```
+
+i
 ### 1.2: Getting comfortable in our format
 This project will follow a standard structure which you should already be familiar with.
-All source code belongs in `src`, and all binary files are generated in `bin`.
-Let's start by creating a file, src/main.cpp:
+Let's start by creating a file, main01.py:
 
-```c++
-#include <ncurses.h>
-
-int main(int argv, char** argc) {
-
-    return 0;
-}
+```python
+from blessed import Terminal
 ```
 
-Note the inclusion of the header `ncurses.h`.  
+Note the inclusion of the library ``blessed.  
 This is required to use the features we will rely on later.
-
-Add a simple makefile:
-
-```Makefile
-bin/main: bin/main.o
-        g++ -g -o bin/main bin/main.o -std=c++11 -Wall -pedantic -lncurses
-
-bin/main.o: src/main.cpp
-        mkdir -p bin
-        g++ -g -c -o bin/main.o src/main.cpp
-```
-
-This will become more complex with stuff like macros as our project grows, but for now it's good enough.
-Note that we're compiling using c++11, and also note the g++ `-lncurses` flag at the link stage - this makes sure we can use the proper library with our executable.
 
 Try to `make` the project now. 
 If you encounter an error related to the library, this probably means it's not installed.
