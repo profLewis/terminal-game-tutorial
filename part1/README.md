@@ -10,7 +10,7 @@ It requires the Python library `blessed`, so let's check you have that:
 Open a terminal, iand at the prompt type:
 
 ```
-python -c 'from blessed import Terminal'
+python -c 'from blessed import Terminal;print("hello world")'
 ```
 
 If this fails, it will say something like:
