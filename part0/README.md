@@ -1,9 +1,27 @@
-# PART 1: Starting out with ncurses
+# PART 1: Getting started
 
 ### 1.1: A brief introduction of everything
 
 This project is based on the terminal game tutorial of fundamelon
 , fundamelon/terminal-game-tutorial in c++, translated to Python using the blessed library.
+
+# PART 2: requirements
+
+### 1.1: Update `pip`
+
+You probably have `pip` on your system already, if you have Python, but you should probably make sure it is up to date:
+
+```
+python3 -m pip install --upgrade pip
+```
+
+![image](../images/img0002.png)
+
+If this responds with `No module named pip`, then you don't have `pip` installed (or not for the version of Python you are now using). So, install it for your computer. [There are multiple options for this](https://pip.pypa.io/en/stable/installation/), depending on your system, so read about it and install `pip`.
+
+```
+python get-pip.py
+```
 
 ### 1.2: Testing for `blessed`
 
