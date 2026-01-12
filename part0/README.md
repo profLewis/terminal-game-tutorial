@@ -80,12 +80,15 @@ If you need to, install the `blessed` library. You should not proceed if you hav
 Most commonly, this involves you downloading and installing using `pip`, by typing at the prompt:
 
 ```
-pip install blessed
+python -m pip install blessed
 ```
 
-If this responds with `Requirement already satisfiedi: blessed`, then you already have it installed, but no harm done.
+If this responds with `Requirement already satisfied: blessed`, then you already have it installed, but no harm done. Otherwise, it should look something like this:
 
-In any case, make sure yiu confirm, running the test you did before:
+![image](../images/img0008.png)
+
+
+In any case, make sure you confirm, running the test you did before:
 
 ```
 python -c 'from blessed import Terminal;print("hello world")'
