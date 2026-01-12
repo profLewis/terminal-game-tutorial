@@ -15,7 +15,7 @@ Open a terminal (look this up if you don't know how):
 
 ![image](../images/img0000.png)
 
-and at the prompt type:
+and at the prompt (i.e. after it says `base> ` here (it will be different on your computer, probably), type:
 
 ```
 python -m pip install --upgrade pip
