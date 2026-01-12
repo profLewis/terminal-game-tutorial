@@ -83,7 +83,7 @@ Most commonly, this involves you downloading and installing using `pip`, by typi
 python -m pip install blessed
 ```
 
-If this responds with `Requirement already satisfied: blessed`, then you already have it installed, but no harm done. Otherwise, it should look something like this:
+If this responds with `Requirement already satisfied: blessed`, then you already have it installed, but no harm done:
 
 ![image](../images/img0008.png)
 
@@ -95,3 +95,5 @@ python -c 'from blessed import Terminal;print("hello world")'
 ```
 
 If thats all good, then you can start learning how to write simple games in Python with `blessed`.
+
+Next: [Part 1](../part1)
