@@ -29,7 +29,7 @@ e.g. (but [check for your system](https://pip.pypa.io/en/stable/installation/)):
 python -m ensurepip --upgrade
 ```
 
-![image](../images/img0003.png)
+![image](../images/img0006.png)
 
 ### 1.2: Testing for `blessed`
 
